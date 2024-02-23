@@ -1,6 +1,6 @@
 verificar.addEventListener("click", ()=>{
    
-    // Ueslei
+    
     
 })
 
