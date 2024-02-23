@@ -1,0 +1,6 @@
+verificar.addEventListener("click", ()=>{
+   
+    // Ueslei
+    
+})
+
