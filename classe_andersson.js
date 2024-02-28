@@ -7,8 +7,12 @@ class Volumes {
         this.raio = raio
     }
     prisma(){
-        let volumePRi = this.basePri * this.alturaPri
-        return volumePRi
+        if(prisma = cubo){
+            let volumePRi = this.basePri * this.alturaPri
+            return volumePRi
+        }else{
+            let volumePRi = (this.basePri * this.alturaPri) / 2
+        }
 
     }
     piramide(){
