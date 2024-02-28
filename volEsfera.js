@@ -1,6 +1,6 @@
 class volumeEsfera{
-    constructor(raio){
-        this.raio = raio
+    constructor(raioEsfera){
+        this.raioEsfera = raioEsfera
     }
 
 

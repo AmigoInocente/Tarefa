@@ -1,23 +1,24 @@
 class Volumes {
-    constructor(basePri,alturaPri,baseP,alturaP,raio){
-        this.basePri = basePri
-        this.alturaPri = alturaPri
-        this.baseP = baseP
-        this.alturaP = alturaP
+    constructor(basePrisma,alturaPrisma,basePiramide,alturaPiramide,raio){
+        this.basePrisma = basePrisma
+        this.alturaPrisma = alturaPrisma
+        this.basePiramide = basePiramide
+        this.alturaPiramide = alturaPiramide
         this.raio = raio
     }
     prisma(){
         if(prisma = cubo){
-            let volumePRi = this.basePri * this.alturaPri
-            return volumePRi
+            let volumePrisma = this.basePrisma * this.alturaPrisma
+            return volumePrisma
         }else{
-            let volumePRi = (this.basePri * this.alturaPri) / 2
+            let volumePrisma = (this.basePrisma * this.alturaPrisma) / 2
+            return volumePrisma
         }
 
     }
     piramide(){
-        let volumeP = (this.baseP * this.alturaP) / 3
-        return volumeP
+        let volumePiramide = (this.basePiramide * this.alturaPiramide) / 3
+        return volumePiramide
 
     }
 }
