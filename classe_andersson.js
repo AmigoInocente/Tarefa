@@ -1,9 +1,10 @@
-class Valores {
-    constructor(basePri,alturaPri,baseP,alturaP){
+class Volumes {
+    constructor(basePri,alturaPri,baseP,alturaP,raio){
         this.basePri = basePri
         this.alturaPri = alturaPri
         this.baseP = baseP
         this.alturaP = alturaP
+        this.raio = raio
     }
     prisma(){
         let volumePRi = this.basePri * this.alturaPri

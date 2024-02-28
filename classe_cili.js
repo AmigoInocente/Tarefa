@@ -1,7 +1,7 @@
 class Cilindro{
-    constructor(raio,altura){
-        this.raio = raio
-        this.altura = altura
+    constructor(raioCilindro,alturaCilindro){
+        this.raio = raioCilindro
+        this.altura = alturaCilindro
 
     }
     areaCilindro(){
